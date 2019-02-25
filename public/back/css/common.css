@@ -107,7 +107,7 @@ left: -180px;
 /* 主体 */
 .lt_main {
     height: 2000px;
-    background-color: pink;
+    /* background-color: pink; */
     padding-left: 180px;
     padding-top: 50px;
     transition: all 2s;
@@ -138,4 +138,18 @@ left: -180px;
 }
 .lt_main .breadcrumb a{
     color: #337AB7;
+}
+
+/* 视图化 */
+.lt_main .echarts_left,
+.lt_main .echarts_right{
+    width: 48%;
+    height:400px;
+    /* background-color: skyblue; */
+}
+.lt_main .echarts_left {
+    float: left;
+}
+.lt_main .echarts_right {
+    float: right;
 }
